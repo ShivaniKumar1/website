@@ -1,4 +1,5 @@
 //Import React
+import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
 import Layout from '../components/layout'
 
@@ -11,6 +12,10 @@ const IndexPage = () => {
       <p>I am a senior computer science student at <a>https://www.ucf.edu/</a>University of Central Florida expecting to 
         complete my Bachelors degree in May 2022. Currently, I am a junior full-stack developer 
         at uClub focusing on building integrations and web development.</p>
+      <StaticImage
+      alt="Headshot of Shivani Kumar"
+      src="../images/headshot.png"
+      />
     </Layout>
   )
 }

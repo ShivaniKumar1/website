@@ -3,6 +3,10 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Resume",
   },
-  plugins: ["gatsby-plugin-gatsby-cloud"],
-  plugins: ["gatsby-plugin-offline"]
+  plugins: [
+    "gatsby-plugin-gatsby-cloud",
+    "gatsby-plugin-offline",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 };
